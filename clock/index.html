@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <title>Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+
+            <div class="clock">
+                <div class="display">
+                    <h1 id="display">00:00:00</h1>
+                </div>
+            </div>
+
+
+            <div class="timers">
+                <div class="title">
+                    <p>Timer</p>
+                </div>
+                <div class="select">
+                    <button id="timer-minute-up">/\</button>
+                    <p id="timer-minute-set">00</p>
+                    <button id="timer-minute-down">\/</button>
+                </div>
+                <div class="select">
+                    <button id="timer-second-up">/\</button>
+                    <p id="timer-second-set">00</p>
+                    <button id="timer-second-down">\/</button>
+                </div>
+                <span id="timer-display">00:00</span>
+                <button id="timer-button">Start</button>
+            </div>
+
+
+            <div class="timers">
+                <div class="title">
+                    <p>Alarm</p>
+                </div>
+                <div class="select">
+                    <button id="alarm-hour-up">/\</button>
+                    <p id="alarm-hour-set">00</p>
+                    <button id="alarm-hour-down">\/</button>
+                </div>
+                <div class="select">
+                    <button id="alarm-minute-up">/\</button>
+                    <p id="alarm-minute-set">00</p>
+                    <button id="alarm-minute-down">\/</button>
+                </div>
+                <span id="alarm-display">00:00</span>
+                <button id="alarm-button">Start</button>
+            </div>
+
+
+            <div class="timers">
+                <div class="title">
+                    <p>Pomodoro</p>
+                </div>
+                <div class="select">
+                    <button id="pomodoro-work-up">/\</button>
+                    <p id="pomodoro-work-set">00</p>
+                    <button id="pomodoro-work-down">\/</button>
+                </div>
+                <div class="select">
+                    <button id="pomodoro-rest-up">/\</button>
+                    <p id="pomodoro-rest-set">00</p>
+                    <button id="pomodoro-rest-down">\/</button>
+                </div>
+                <span id="pomodoro-display">00 / 00</span>
+                <button id="pomodoro-button">Start</button>
+            </div>
+
+
+            <div class="timers">
+                <div class="title">
+                    <p>Chronometer</p>
+                </div>
+                
+                    
+                <p id="chronometer-display">00:00</p>
+                
+                <button id="chronometer-button-start">Start</button>
+
+                <button id="chronometer-button-pause">Pause</button>
+                
+                <button id="chronometer-button-stop">Stop</button>
+                
+                
+            </div>   
+
+        </div>
+    </div>
+</body>
+</html>

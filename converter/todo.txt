@@ -1,0 +1,30 @@
+HTML
+X Mudar Titulos
+X Arrumar Select
+
+CSS
+X Alinhar tudo
+X Tamanho fonte e cores
+X Trocar todos para Botão
+X Botão hover/click
+X Tirar setas dos inputs
+
+JS
+X Criar listas para o Select
+X Passar listas para o HTML
+X Receber os inputs
+X Colocar tudo em uma unica função
+X Ao clicar, conseguir pegar recuperar os valores do botão
+X Matematica
+X Mostrar valor apos "Resultado:"
+X Exceções
+    X Se selects forem iguais (km e km)
+    X Se uns dos selects não estiver selecionado, ou os 2(select = "Select...")
+    X Numero não digitado
+
+GERAL:
+X Mudar nome das Variaveis
+X Formatar Valores
+- Conferir Matematica
+
+

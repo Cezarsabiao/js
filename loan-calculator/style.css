@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(224, 204, 123);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 50%;
+}
+
+.header{
+    text-align: center;
+    background-color: darkgray;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.content button{
+    font-size: 20px;
+    width: 100%;
+}
+
+.form-control{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control small{
+    color: red;
+    visibility: hidden;
+}
+
+.form-control input{
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.form-control.success input{
+    border: 3px solid greenyellow;
+} 
+
+.form-control.success small{
+    visibility: hidden;
+} 
+
+.form-control.error input{
+    border: 3px solid red;
+} 
+
+.form-control.error small{
+    visibility: visible;
+} 
+
+.result{
+    padding: 5px;
+    width: 50%;
+    
+}
+
+.result_layout{
+    display: flex;
+}
+
+.result p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.mp{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 50px;
+}
+
+
